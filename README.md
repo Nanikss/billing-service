@@ -1,5 +1,7 @@
 # Billing Service
 
+[![CI](https://github.com/kumarnenavath5815-cpu/billing-service/actions/workflows/ci.yml/badge.svg)](https://github.com/kumarnenavath5815-cpu/billing-service/actions/workflows/ci.yml)
+
 A Spring Boot REST API for insurance **policy billing**: payment plans, installment invoices, payment allocation and delinquency. These are the core flows of a billing system like Guidewire BillingCenter, which I've configured and integrated professionally, rebuilt here as a small standalone service.
 
 **Stack:** Java 17 · Spring Boot 3 (Web, Data JPA, Validation) · H2 / Postgres · JUnit 5 · MockMvc · AssertJ
